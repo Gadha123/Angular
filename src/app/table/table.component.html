@@ -1,0 +1,20 @@
+<p>
+  table works!
+</p>
+  <div>
+    <table border = "1">
+      
+      <th>code</th>
+      <th>name</th>
+      <th>gender</th>
+      <th>annualSalary</th>
+      <th>dateOfBirth</th>
+      <tr *ngFor = 'let emp of employees'>
+        <td>{{emp.code}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.gender}}</td>
+        <td>{{emp.annualSalary}}</td>
+        <td>{{emp.dateOfBirth}}</td>
+      </tr>
+    </table>
+  </div>
